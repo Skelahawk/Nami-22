@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>My Dearest Nami,</strong>
+                        <p>
+                         
+
+Happy 22nd monthsary, my love! 💕 It feels like just yesterday when we first started this amazing journey together. I can't believe how quickly time has flown by, and yet, every moment with you feels so special and cherished.
+ <p>You are truly my wave, the one who sweeps me off my feet with your love and kindness. I am endlessly grateful for every wave of joy and every tide of laughter you bring into my life. HAHAHAHAHA! 😄 You make even the simplest moments feel extraordinary, and I can’t help but smile every time I think of you.</p>
+
+
+As your moon, I promise to always shine brightly for you, no matter what. Together, we’ve created a constellation of beautiful memories, and I can’t wait to add more stars to our sky. You are my rock, my guiding light, and my everything.
+
+Salamat kaayo sa imong gugma ug suporta, Nami. Di ko matumbasan ang kalipay nga imong gipahat sa akong kinabuhi. 🥰
+
+Cheers to us, my love, and to many more monthsaries to come. I’m looking forward to celebrating this special day with you and making more beautiful memories.
+<p>With all my love,
+
+Your Moon (and Didi) 🌙</p>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
